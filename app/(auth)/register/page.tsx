@@ -67,8 +67,8 @@ export default function RegisterPreview() {
   }
 
   return (
-    <div className="flex min-h-[60vh] h-screen w-full items-center justify-center px-4">
-      <Card className="mx-auto max-w-sm">
+    <div className="flex h-screen w-full items-center justify-center px-4">
+      <Card className="mx-auto w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl">Register</CardTitle>
           <CardDescription>Create a new account by filling out the form below.</CardDescription>

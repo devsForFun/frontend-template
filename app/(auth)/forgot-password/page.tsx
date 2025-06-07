@@ -35,8 +35,8 @@ export default function ForgetPasswordPreview() {
   }
 
   return (
-    <div className="flex min-h-[40vh] h-screen w-full items-center justify-center px-4">
-      <Card className="mx-auto max-w-sm">
+    <div className="flex h-screen w-full items-center justify-center px-4">
+      <Card className="mx-auto w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl">Forgot Password</CardTitle>
           <CardDescription>Enter your email address to receive a password reset link.</CardDescription>
